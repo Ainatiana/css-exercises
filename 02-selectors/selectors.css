@@ -1,118 +1,152 @@
-/* 1 = Select everything in the document */
-1 {
+/* 1 = Select everything in the document
+ccl*/
+* {
   all: unset;
 }
 
 
 /* 2 = Select only table elements */
-2 {
+table {
   border-spacing: 0;
   border-collapse: collapse;
 }
 
 
 /* 3 = Select any element with a class value of `police` */
-3 {
+.police {
   color: blue;
   background-color: red;
 }
 
 
-/* 4 = Select any `h1` element that is a descendent of the `header` element */
-4 {
+/* 4 = Select any `h1` element that is a descendent of the `header` element
+descendant selector
+*/
+header h1 {
   font-size: 4rem;
   margin-bottom: 0;
 }
 
 
 /* 5 = Select only the `ul` elements that are children of the `nav` element */
-5 {
+nav > ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 
-/* 6 = Select only the first child paragraph within a `section` element */
-6 {
+/* 6 = Select only the first child paragraph within a `section` element
+  pseudo-class selector
+  child combinator
+  element selector
+*/
+section > p:first-of-type {
   font-size: 1.5rem;
 }
 
 
-/* 7 = Select any heading element */
-7 {
+/* 7 = Select any heading element
+  selector list
+*/
+h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
 }
 
 
-/* 8 = Select all anchors that are also links */
-8 {
+/* 8 = Select all anchors that are also links
+  link pseudo-class
+  element selector
+*/
+a:link {
   text-decoration: underline;
 }
 
 
-/* 9 = Select any anchor that is hovered over with the mouse */
-9 {
+/* 9 = Select any anchor that is hovered over with the mouse
+hover pseudo-class
+element selector
+*/
+a:hover {
   text-decoration: none;
 }
 
 
-/* 10 = Select only the element with ID value equal to `captain` */
-10 {
+/* 10 = Select only the element with ID value equal to `captain`
+  ID selector
+*/
+#captain {
   border: 5px solid gold;
   border-radius: 5px;
 }
 
 
-/* 11 = Select all paragraph elements that have a class value of `hidden` */
-11 {
+/* 11 = Select all paragraph elements that have a class value of `hidden`
+  class selector
+  element selector
+*/
+p.hidden {
   display: none;
 }
 
 
-/* 12 = Select all form elements that have a method attribute set to `POST` */
-12 {
+/* 12 = Select all form elements that have a method attribute set to `POST`
+element selector
+attribute
+*/
+[method="POST"] {
   box-shadow: 2px 2px 5px rgba(0,0,0,.1);
 }
 
 
-/* 13 = Select any element that has a `required` attribute defined */
-13 {
+/* 13 = Select any element that has a `required` attribute defined
+attribute selector(without a value)
+*/
+[required] {
   border-color: red;
 }
 
 
-/* 14 = Select any sibling paragraph elements that are preceeded by an `h3` */
-14 {
+/* 14 = Select any sibling paragraph elements that are preceeded by an `h3`
+general combinator
+element selector
+*/
+h3 ~ p {
   color: #66F;
 }
 
 
-/* 15 = Select any sibling paragraph elements that directly follow an `h3` */
-15 {
+/* 15 = Select any sibling paragraph elements that directly follow an `h3`
+adjacent sibling combinator
+element selector
+*/
+h3 + p {
   font-size: 1.5rem;
 }
 
 
-/* 16 = Select every cell within each odd table row */
-16 {
+/* 16 = Select every cell within each odd table row
+element selector
+
+*/
+tr:nth-last-of-type(odd)>* {
   background-color: rgba(0,0,0,.1);
 }
 
 
 /* 17 = Select any `img` element that doesn't have a `alt` attribute */
-17 {
+img:not([alt]) {
   border: 5px solid red;
 }
 
 
 /* 18 = Select any `p` element that doesn't have any contents */
-18 {
+p:empty {
   display: none;
 }
 
 
 /* 19 = Select the root of the document or fragment */
-19 {
+:root {
   --base_unit: 1rem;
 }
