@@ -2,7 +2,158 @@
 /*
   Property name
   Property description
-*/
+  */
   /* Property example with a value */
 
+  /*
+   font-family: It  specifies the font for an element.
+  example:*/
+
+p {
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+
+/*
+ font-size: Sets the font size for different elements.
+  example:*/
+#tiana {
+  font-size: 15px;
+}
+
+/*
+ font-weight: sets how thick or thin characters in text should be displayed.
+  example:*/
+#bloom  {
+  font-weight: normal;
+}
+
+  /*
+   font-style: This property specifies the font style for a text.
+  example:*/
+  p.c {
+    font-style: oblique;
+  }
+
+  /*
+   line-height: specifies the height of a line.
+  example:*/
+  div.bbt {
+    line-height: 80%;
+  }
+
+  /*
+   font-variant: specifies whether or not a text should be displayed in a small-caps font.
+  example:*/
+  p.small {
+    font-variant: small-caps;
+  }
+
+  /*
+   font-stretch: allows you to make text narrower (condensed) or wider (expanded).
+  example:*/
+  div {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+  }
+
+  /*
+   font-size-adjust: gives you better control of the font size when the first selected font is not available.
+  example:*/
+  div {
+    font-size-adjust: 0.58;
+  }
+
+  /*
+   font-synthesis:
+  example:*/
+
+
+
+  /*
+   letter-spacing:  increases or decreases the space between characters in a text.
+  example:*/
+  h2 {
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    letter-spacing: -1px;
+  }
+
+
+  /*
+   text-align: specifies the horizontal alignment of text in an element.
+  example:*/
+
+  div.class {
+    text-align: left;
+  }
+
+  /*
+   text-decoration: specifies the decoration added to text
+  example:*/
+  h3 {
+    text-decoration: underline;
+  }
+
+  /*
+   text-decoration-line:  sets the kind of text decoration to use (like underline, etc)
+  example:*/
+  div.kiwi {
+    text-decoration-line: overline;
+  }
+
+  /*
+   text-decoration-style:  sets the style of the text decoration (like solid, wavy, dotted,etc)
+  example:*/
+ p.tsola {
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+  }
+
+  /*
+   text-decoration-color: specifies the color of the text-decoration (underlines, overlines, linethroughs).
+  example:*/
+  p {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+
+  /*
+   text-indent:  specifies the indentation of the first line in a text-block.
+  example:*/
+  div.room {
+    text-indent: 30%;
+  }
+
+
+  /*
+   text-transform: controls the capitalization of text.
+  example:*/
+  div.a {
+    text-transform: uppercase;
+  }
+
+
+  /*
+   vertical-align: sets the vertical alignment of an element.
+  example:*/
+  img.first {
+    vertical-align: sub;
+  }
+
+  /*
+   white-space: specifies how white-space inside an element is handled.
+  example:*/
+  p.a {
+    white-space: nowrap;
+  }
+
+  p.b {
+    white-space: normal;
+  }
+
+  p.c {
+    white-space: pre;
+  }
 }
