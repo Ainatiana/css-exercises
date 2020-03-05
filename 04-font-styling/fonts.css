@@ -67,3 +67,13 @@ small {
 #section_monospace{
   font-family: 'Courier New', Courier, monospace;
 }
+
+#section_fantasy {
+  font-family: fantasy;
+  background-color: skyblue;
+}
+
+#section_cursive {
+  font-family: cursive;
+  background-color: steelblue;
+}
