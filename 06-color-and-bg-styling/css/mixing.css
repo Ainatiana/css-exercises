@@ -1,0 +1,49 @@
+ /*body {
+  background-image:
+    linear-gradient(
+      to right,
+      red,
+      #f06d06,
+      rgb(255, 255, 0),
+      green
+    );
+}
+*/
+
+figure.dory {
+  background-image: url('../images/bubble.png'),
+                   url('../images/coral-reef.png'),
+                   url('../images/crab.png');
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+figure.henry {
+  background-image: url('../images/grass-clump.png'),
+                    url('../images/grass-tile.png'),
+                    url('../images/grass-left.png'),
+                    url('../images/sun.png');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+figure.lu-seal {
+  background-image: url('../images/palm-2.png'),
+                    url('../images/palm.png'),
+                    url('../images/sun.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#adory {
+  background: linear-gradient(#7164e5, #1220be);
+}
+
+#ahenry {
+  background: linear-gradient(#2bb9f1, #dbeaf3);
+}
+
+#aseal {
+  background: linear-gradient(#1d9cf05e, #f8ea20);
+}
