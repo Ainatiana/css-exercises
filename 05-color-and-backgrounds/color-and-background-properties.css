@@ -15,6 +15,15 @@
   Description: The background-image CSS property sets one or more background images on an element.
   example: background-image: url("../../media/examples/lizard.png");
 
+  linear-grakient: The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the <gradient> data type, which is a special kind of <image>.
+  example: background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+  radial-gradient: The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the <gradient> data type, which is a special kind of <image>.
+  example: background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+
+  repeating-radial-gradient: The repeating-radial-gradient() CSS function creates an image consisting of repeating gradients that radiate from an origin. It is similar to radial-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container, similar to repeating-linear-gradient() . The function's result is an object of the <gradient> data type, which is a special kind of <image>.
+  example: background: repeating-radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+
   background-repeat:
   Description: The background-repeat CSS property sets how background images are repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all.
   example: background-repeat: space repeat;
@@ -46,7 +55,6 @@
   box-shadow:
   Description: The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.
   example: box-shadow: 60px -16px teal;
-
 
   */
     /* Property example with a value */
