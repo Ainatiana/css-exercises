@@ -1,49 +1,52 @@
- /*body {
-  background-image:
-    linear-gradient(
-      to right,
-      red,
-      #f06d06,
-      rgb(255, 255, 0),
-      green
-    );
-}
-*/
+
 
 figure.dory {
   background-image: url('../images/bubble.png'),
                    url('../images/coral-reef.png'),
                    url('../images/crab.png');
+                   background-position:
+                                        0%,0%
+                                        50%,50%
+                                        100%,100%;
   background-repeat: repeat-x;
-  background-position: bottom;
+  background: linear-gradient(0deg, (#7164e5) 80% , (sandybrown) 20%);
 }
 
-figure.henry {
-  background-image: url('../images/grass-clump.png'),
-                    url('../images/grass-tile.png'),
+/* {
+  background-image:
+                    linear-gradient(0deg,rgba(216, 228, 43, 0.342) 200px, rgba(75, 204, 243, 0.075) 10%),
+                    url('../images/grass-clump.png'),
                     url('../images/grass-left.png'),
+                    url('../images/grass-tile.png'),
                     url('../images/sun.png');
-  background-size: contain;
-  background-position: bottom;
+  background-position:top right, bottom center,bottom right,bottom center;
   background-repeat: no-repeat;
+  width: 900px;
+  height: 400px;
+}*/
+
+.bird {
+  background-image:
+                    url('../images/grass-clump.png'),
+                    url('../images/grass-left.png'),
+                    url('../images/grass-tile.png'),
+                    url('../images/sun.png'),
+                    linear-gradient(0deg, (rgb(255, 255, 224) 200px, (lightblue) 100%);
+  background-position: bottom left,
+                       bottom center,
+                       bottom right,
+                       top left;
 }
 
 figure.lu-seal {
   background-image: url('../images/palm-2.png'),
                     url('../images/palm.png'),
                     url('../images/sun.png');
-  background-repeat: no-repeat;
   background-position: bottom;
-}
-
-#adory {
-  background: linear-gradient(#7164e5, #1220be);
-}
-
-#ahenry {
-  background: linear-gradient(#2bb9f1, #dbeaf3);
+  background-repeat: no-repeat;
 }
 
 #aseal {
   background: linear-gradient(#1d9cf05e, #f8ea20);
 }
+
