@@ -1,6 +1,20 @@
 
 .fish {
-  background: linear-gradient(#bce7f1, #dde591);
+    background-image:url('../images/coral-reef.png'),
+                      url('../images/crab.png'),
+                      url('../images/coral-reef.png'),
+                     linear-gradient(to top, rgb(243, 247, 21), rgb(114, 247, 236) 40%, rgb(155, 211, 188) 20%, rgba(61, 103, 243, 0.884) 40%);
+    background-position:
+      center, /* this positions the first image */
+      bottom left, /* this positions the second image */
+      bottom right;
+    background-size: 1000px,
+                     300px,
+                     800px,
+                     100% 100%;
+    background-repeat:
+      no-repeat; /* this applies to both images */
+      background:
 }
 
 .bubble {
@@ -19,7 +33,7 @@
 
 }
 
-@keyframes move {
+/*@keyframes move {
   from { bottom: 0; left: 0; }
   to   { top: 100px; left: 100px; }
 }
@@ -30,6 +44,7 @@ figure.fish #bubb {
   height: 100px;
     animation: move;
 }
+*/
 
 #cre-1 {
 
