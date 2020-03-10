@@ -15,4 +15,32 @@
   - Why would we use `visibility: visible;`?
 
 */
+/*Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+Example:*/
+div { background-color: yellow; }
+.light {
+  opacity: 0.2; /* Barely see the text over the background */
+}
+
+/*background-color (semi-transparent)*/
+.example {
+  background-color: rgba(255, 255, 128, .3);
+}
+
+/*display: The CSS display property is specified using keyword values. Keyword values are grouped into six value categories:*/
+.example {
+    display: [ <display-outside> || <display-inside> ] | <display-listitem> | <display-internal> | <display-box> | <display-legacy> ;
+}
+/*none: Turns off the display of an element so that it has no effect on layout (the document is rendered as though the element did not exist). All descendant elements also have their display turned off.*/
+
+/*visibility: hidden; The visibility attribute lets you control the visibility of graphical elements. With a value of hidden or collapse the current graphics element is invisible.*/
+.example {
+    visibility: hidden;
+}
+
+/*We use visibility: visible; because we want an appearance of a layout.*/
+.example {
+  visibility: visible;
+}
+
 
