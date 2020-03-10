@@ -1,5 +1,45 @@
 
-figure.fish {
-  background: linear-gradient(#8ad5f3, #c7df3f);
+.fish {
+  background: linear-gradient(#bce7f1, #dde591);
+}
+
+.bubble {
+
+}
+
+.creef-1 {
+
+}
+
+.crab {
+
+}
+
+.creef-2 {
+
+}
+
+@keyframes move {
+  from { bottom: 0; left: 0; }
+  to   { top: 100px; left: 100px; }
+}
+
+figure.fish #bubb {
+  background-image: url('../images/bubble.png');
+  width: 100px;
+  height: 100px;
+    animation: move;
+}
+
+#cre-1 {
+
+}
+
+#craby {
+
+}
+
+#cre-2 {
+
 }
 
