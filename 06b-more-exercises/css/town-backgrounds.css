@@ -14,8 +14,8 @@
 }
 
 #sun {
-  background-image: url('../images/sun.svg')
-
+  background-image: url('../images/sun.svg');
+  background-repeat: no-repeat;
 }
 
 

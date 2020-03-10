@@ -1,0 +1,19 @@
+nav {
+  visibility: hidden;
+}
+
+.home {
+  visibility: visible;
+}
+
+tr:nth-child(2) td {
+  display: none;
+}
+
+table tr:last-child td:last-child {
+  display:none;
+}
+
+span {
+  display: none;
+}
