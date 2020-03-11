@@ -2,18 +2,26 @@ nav {
   visibility: hidden;
 }
 
-.home {
+ul:nth-child(1) li:nth-child(1) {
   visibility: visible;
 }
 
-tr:nth-child(2) td {
+tr:nth-child(2n) {
   display: none;
 }
 
-table tr:last-child td:last-child {
-  display:none;
+[data-bg-color="blue"] {
+  display: none;
 }
 
 span {
   display: none;
+}
+
+#opacity-canvas {
+  opacity: 0.5;
+}
+
+#opacity-canvas span {
+  opacity: 0.5;
 }
