@@ -5,3 +5,20 @@
   */
     /* Property example with a value */
   }
+
+  /*
+        Box model:
+Every html element has a box model which is a rectangular box that contains content such as an image or text and many other things that you put in your html document.
+A box model is normally the combination of margins, borders, padding and inside those we have the content. Every content is possessed in a box model.
+The content is placed in the most middle then followed by the padding, then the border and the last is the margin. Every one of those are measured by it’s width and height.
+  */
+  /*
+  */
+html {
+  background-color: chocolate;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
