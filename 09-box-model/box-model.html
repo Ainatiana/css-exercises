@@ -7,11 +7,84 @@
     <link rel="stylesheet" href="boxes.css">
   </head>
   <body>
-    <section>
-      <h1>This is a box model diagram:</h1>
-      <p>
-        <img src="diagram.jpg">
-      </p>
-    </section>
+    <header>
+      <h1> Make a Box model</h1>
+    </header>
+    <main>
+      <div>
+          <dl>
+            <dt class="d-type">
+              Box model:
+            </dt>
+            <dd class="d-def">
+              <p>
+                Every html element has a box model which is a rectangular box that contains content such as an image or text and many other things that you put in your html document.
+    A box model is normally the combination of margins, borders, padding and inside those we have the content. Every content is possessed in a box model.
+    The content is placed in the most middle then followed by the padding, then the border and the last is the margin. Every one of those are measured by it’s width and height.
+              </p>
+            </dd>
+            <dt class="d-type-2">
+              Content-box:
+            </dt>
+            <dd class="d-def">
+              <p>
+                The content box is the part in the center within a box model. It contains the main content of our document for example image or text.
+              </p>
+            </dd>
+            <dt class="d-type-2">
+              Padding-box:
+            </dt>
+            <dd class="d-def">
+              <p>
+                Padding-box is a part of a model box which contains the size property including padding and content.
+              </p>
+            </dd>
+            <dt class="d-type-2">
+              Border-box:
+            </dt>
+            <dd class="d-def">
+              <p>
+                Border-box is a part of a model box that holds the padding box.
+              </p>
+            </dd>
+          </dl>
+      </div>
+      <div>
+        <ul class="list">
+          <li>
+            <span class="span">Border longhand</span> is used to set different values for these properties.
+  Border-width, border-color, and border-style.
+          </li>
+          <li>
+            <span class="span">Margin</span> is the cover part of a model box. In other word, it is the one which is packs every box in a model box.
+          </li>
+          <li>
+            <span class="span">padding</span> is the box that wraps the content-box in a model box.
+          </li>
+          <li>
+            <span class="span">Display-box</span> has these values: none and content.
+          </li>
+          <li>
+            <span class="span">box-sizing</span>t akes care of the calculation of the total width and height of an element.
+          </li>
+        </ul>
+      </div>
+      <div id="link">
+        <p>
+          <a href="https://css-tricks.com/what-you-should-know-about-collapsing-margins/"><span class="span" id="link-1">What happens when two differently sized margins of two different boxes collide?</span></a>
+        </p>
+        <p>
+          <a href="https://stackoverflow.com/questions/8969381/what-is-the-difference-between-display-inline-and-display-inline-block"><span class="span" id="link-2">What is the difference between display values <b>inline</b>, <b>inline-block</b>, and <b>block</b>?</span></a>
+        </p>
+      </div>
+      <section>
+        <h2>
+          This diagram below shows you how does a box model work:
+        </h2>
+        <p>
+          <img id="image" src="diagram.jpg" alt="box model diagram is helpful">
+        </p>
+      </section>
+    </main>
   </body>
 </html>
