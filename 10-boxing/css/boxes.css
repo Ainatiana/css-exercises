@@ -1,107 +1,56 @@
+
+header {
+  padding: 1rem 2rem;
+  margin-block-end: 1rem;
+}
+
 h1 {
-  border-style: solid;
-  border-width: 1rem;
-  padding-top:1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-  padding-left: 2rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+  padding:1rem;
+  border:solid 1rem;
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+}
+
+td:first-child {
+  padding-inline-end: 1rem;
+}
+
+td:nth-child(2) {
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
+}
+td:nth-child(3) {
+  padding-inline-start: 1rem;
+}
+
+tr:nth-child(1) span {
+  border-block-end: solid 1rem;
+}
+
+tr:nth-child(2) span {
+  border-block-start: solid 1rem;
+  border-block-end: solid 1rem;
+}
+
+tr:nth-child(3) span {
+  border-block-start: solid 1rem;
+}
+
+table {
+  padding: 2rem 1rem;
+}
+
+body {
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+footer {
+  padding: 1rem;
+    margin-block-start: 1rem;
+}
+
+footer span {
+  border: 1rem solid;
   display: block;
 }
-
-tr:first-child > td:nth-child(1) > span {
-  padding-right: 1rem;
-  border-style: solid;
-  border-width: 1rem;
-  border-top: #8ab2bd;
-  border-left: #8ab2bd;
-  border-right: #8ab2bd;
-}
-
-tr:first-child > td:nth-child(2) > span {
-  border-style: solid;
-  border-width: 1rem;
-  border-top: #8ab2bd;
-  border-right: #8ab2bd;
-  border-left: #8ab2bd;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-tr:first-child > td:nth-child(3) > span {
-  padding-left: 1rem;
-  border-style: solid;
-  border-width: 1rem;
-  border-top: #8ab2bd;
-  border-left: #8ab2bd;
-  border-right: #8ab2bd;
-}
-
-tr:nth-child(2) > td:nth-child(1) > span {
-  padding-right: 1rem;
-  border-style: solid;
-  border-width: 1rem;
-  border-left: #8ab2bd;
-  border-right: #8ab2bd;
-}
-
-
-tr:nth-child(2) > td:nth-child(2) > span {
-  padding-right: 1rem;
-  padding-left: 1rem;
-  border-style: solid;
-  border-width: 1rem;
-  border-left: #8ab2bd;
-  border-right: #8ab2bd;
-}
-
-tr:nth-child(2) > td:nth-child(3) > span {
-  padding-left: 1rem;
-  border-style: solid;
-  border-width: 1rem;
-  border-left: #8ab2bd;
-  border-right: #8ab2bd;
-}
-
-tr:nth-child(3) > td:nth-child(1) > span {
-  padding-right: 1rem;
-  border-style: solid;
-  border-width: 1rem;
-  border-left: #8ab2bd;
-  border-right: #8ab2bd;
-  border-bottom: #8ab2bd;
-}
-
-tr:nth-child(3) > td:nth-child(2) > span {
-  padding-right: 1rem;
-  padding-left: 1rem;
-  border-style: solid;
-  border-width: 1rem;
-  border-left: #8ab2bd;
-  border-right: #8ab2bd;
-  border-bottom: #8ab2bd;
-}
-
-tr:nth-child(3) > td:nth-child(3) > span {
-  padding-left: 1rem;
-  border-style: solid;
-  border-width: 1rem;
-  border-left: #8ab2bd;
-  border-right: #8ab2bd;
-  border-bottom: #8ab2bd;
-}
-
-footer > span {
-  border-style: solid;
-  border-width: 1rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  display: block;
-}
-
