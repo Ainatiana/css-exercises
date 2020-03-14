@@ -1,0 +1,21 @@
+/* {
+  box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+}*/
+nav#pages {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+

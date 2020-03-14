@@ -1,0 +1,21 @@
+footer {
+  margin-left: 20rem;
+  margin-top: 4rem;
+}
+
+ul.footer > li > a, h2 > a {
+  text-decoration: none;
+}
+
+ul.footer > li > a {
+  border-radius: 1rem;
+}
+
+/*#twitter {
+  width: 46px;
+  height: 44px;
+  background: url('../images/icon-twitter.png');
+  opacity: 1;
+}*/
+
+

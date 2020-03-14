@@ -1,0 +1,9 @@
+a.strange {
+  background-color:rgb(61, 147, 228);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+   position: absolute;
+  right: 50px;
+}
