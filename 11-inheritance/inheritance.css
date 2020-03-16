@@ -1,0 +1,18 @@
+html {
+  background: linear-gradient(#f3ef12, #2bc3f1);
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 800;
+  color: blue;
+}
+
+section p {
+  font-weight: bolder;
+}
+
+span {
+  color: red;
+}

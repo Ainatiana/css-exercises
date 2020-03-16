@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Inheritance</title>
+    <link rel="stylesheet" href="inheritance.css">
+  </head>
+  <body>
+    <section>
+      <h1>CSS inheritance</h1>
+      <p>Inherit means simply that the style will be inherited from the element's parent. In other words, it means the rule you have made in parent element does not apply on the child element by using <b>inherit</b></p>
+      <p>Also significant here is the concept of inheritance, which means that some CSS properties by default inherit values set on the current element's parent element, and some don't. This can also cause some behavior that you might not expect.</p>
+    </section>
+    <section>
+      <h2>currentColor and inherit:</h2>
+      <p>The currentcolor keyword represents the value of an element's color property. This lets you use the color value on properties that do not receive it by default.</p>
+      <p>If currentcolor is used as the value of the color property, it instead takes its value from the inherited value of the color property.</p>
+    </section>
+    <section>
+      <h3><span>Revert</span>, <span>initial</span>, and <span>unset</span> keyword values</h3>
+      <p>The revert CSS keyword reverts the cascaded value of the property from its current value to the value the property would have had if no changes had been made by the current style origin to the current element. Thus, it resets the property to its inherited value if it inherits from its parent or to the default value established by the user agent's stylesheet (or by user styles, if any exist). It can be applied to any CSS property, including the CSS shorthand all. This removes from the cascade all of the styles that have been overridden until the style being rolled back to is reached.</p>
+      <p>The <span>initial</span> CSS keyword applies the initial (or default) value of a property to an element. This initial value is set by the browser. It can be applied to any CSS property. This includes the CSS shorthand all, with which initial can be used to restore all CSS properties to their initial state.</p>
+    </section>
+  </body>
+</html>
