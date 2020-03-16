@@ -1,5 +1,9 @@
+html {
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 main {
-  margin-left: 20rem;
-  margin-top: 4rem;
+  text-align: center;
 }
 

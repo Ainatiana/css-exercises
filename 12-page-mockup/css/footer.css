@@ -1,21 +1,44 @@
+/*
+Let the footer element manage the spacing.We' ll be using `display: inline*` for all footer 's children.
+*/
+
 footer {
-  margin-left: 20rem;
-  margin-top: 4rem;
+  text-align: center;
+  padding-block-start: 7.5rem;
+  padding-block-end: 7.5rem;
+  border-block-start: 1px rgb(220, 220, 220) solid;
 }
 
-ul.footer > li > a, h2 > a {
-  text-decoration: none;
+footer ul {
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-ul.footer > li > a {
-  border-radius: 1rem;
+/*
+Make all list item behave like inline element
+*/
+
+footer li {
+  display: inline;
+  margin: 0 0.5rem;
 }
 
-/*#twitter {
-  width: 46px;
-  height: 44px;
-  background: url('../images/icon-twitter.png');
-  opacity: 1;
-}*/
+footer li:first-child {
+  margin-inline-start: 0;
+}
 
+footer li:last-child {
+  margin-inline-end: 0;
+}
 
+footer li:not(:first-child):not(:last-child) {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+}
+
+footer small {
+  color: rgb(77, 77,77);
+  margin: 0;
+}
